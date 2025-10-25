@@ -36,7 +36,7 @@ const ScholarshipsSection = () => {
         <SectionTitle title="Təqaüdlər" />
         <div className="flex flex-col items-center justify-center gap-6 md:gap-8 mt-4">
           <img src={line2 } alt="Line" className="w-full max-w-[800px]" />
-          <div className="flex flex-wrap justify-center gap-6 md:gap-8">
+          <div className="flex justify-center gap-6 md:gap-8">
             {scholarships.map((scholarship, index) => (
               <ScholarshipCard
                 key={index}

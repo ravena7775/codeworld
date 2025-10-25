@@ -3,9 +3,9 @@ import Container from '../UI/Container';
 import SectionTitle from '../UI/SectionTitle';
 import TeacherCard from './TeacherCard';
 import t1 from "../../assets/img/teacher1.svg"
-import t2 from "../../assets/img/teacher1.svg"
+import t2 from "../../assets/img/teacher3.svg"
 import t3 from "../../assets/img/teacher1.svg"
-import t4 from "../../assets/img/teacher1.svg"
+import t4 from "../../assets/img/teacher3.svg"
 const TeachersSection = () => {
   const teachers = [
     { name: 'James Bond', role: 'Qrafik Dizayner', imgSrc: t1 },
